@@ -6,7 +6,6 @@ import pathlib
 
 import matplotlib.pyplot as plt
 import pandas as pd
-import pycaret
 import streamlit as st
 from pycaret.regression import load_model, predict_model
 
