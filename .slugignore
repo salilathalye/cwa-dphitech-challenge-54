@@ -1,0 +1,6 @@
+# for Heroku
+*.psd
+*.pdf
+*.csv
+*.log
+/notebooks

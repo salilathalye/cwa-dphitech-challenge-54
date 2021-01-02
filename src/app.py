@@ -108,7 +108,7 @@ def main():
     if submit_button:
         st.text("Submitted")
         print(prediction_inputs_df)
-        # TODO: Use threshold obtained from o
+        # TODO: Use threshold obtained from optimized_threshold_results.json
         prediction = predict_model(
             final_model, data=prediction_inputs_df, verbose=False
         )
