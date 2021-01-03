@@ -20,7 +20,7 @@ def main():
     # print(f"PyCaret version: {pycaret.__version__}")
 
     # print(pathlib.Path.cwd())
-    final_model = load_model(MODEL_PATH)
+    final_model = load_model(MODEL_PATH, verbose=False)
 
     st.title("DPhi Tech - Machine Learning Bootcamp (Advanced Track)")
     st.header("Assignment #3 - Data Challenge #54")
@@ -91,8 +91,8 @@ def main():
 
     prediction_inputs_dict = dict(zip(data_columns, inputs))
     prediction_inputs_df = pd.DataFrame([prediction_inputs_dict])
-    print(prediction_inputs_df.head())
-    print(prediction_inputs_df.info())
+    # print(prediction_inputs_df.head())
+    # print(prediction_inputs_df.info())
     # TODO: Check that input schema complies with model schema
     st.header("Loan Application Details")
     st.subheader("Fill in your details, then click Submit")
