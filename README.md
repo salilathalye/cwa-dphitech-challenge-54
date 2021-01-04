@@ -5,7 +5,7 @@
 * Experiment Tracking using MLflow
 * Configuration Tracking
 * Building a web front-end to serve the Model using Streamlit
-* Deploying the Streamlit app to Heroku
+* Deploying the Streamlit app to Heroku, Streamlit Share and Docker
 
 This was assignment #3 in DPhi Tech's Machine Learning Bootcamp Advanced track. I enrolled in the bootcamp to sharpen the saw for a variety of skills.
 Initially I built out a simple ML pipeline using pandas and sklearn and restarted the assignment using PyCaret, informed by the EDA and restricted evaluation
