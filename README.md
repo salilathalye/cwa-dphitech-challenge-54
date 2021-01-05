@@ -13,5 +13,11 @@ from my simple pipeline. This gave me a greater appreciation for what PyCaret br
 From my prior experience working with Azure Machine Learning, I have started the initial iteration to build capabilities that a data scientist would need
 when working alongside DBA, MLOps and Full-Stack Web Developers in a SCRUM/Product-Centric team in order to capture salient information through the DTAP lifecycle.
 
+Heroku
+Note: The current implementation and dependencies results in a slug size of 574MB which exceeds the max slug size (500MB) of the free Heroku tier dyno.
 
+Streamlit Share
+https://share.streamlit.io/salilathalye/cwa-dphitech-challenge-54/main/src/app.py
+
+DPhi Tech Challenge #54
 https://dphi.tech/practice/challenge/54#data
